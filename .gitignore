@@ -1,0 +1,5 @@
+/venv
+/env
+.env
+/data
+/document_parsing_experiments
