@@ -1,0 +1,126 @@
+{
+  "tender_id": "69cfa03fc5f143e47a75fde7",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69cfa03fc5f143e47a75fde7",
+  "pipeline_state": {
+    "downloaded": "2026-04-06T22:09:05.446533Z",
+    "extracted": "2026-04-06T22:09:05.517593Z",
+    "parsed": "2026-04-06T22:09:15.006931Z",
+    "passports_generated": "2026-04-06T22:09:40.598774Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "Обоснование НМЦК.docx",
+      "stored_filename": "doc_001.docx",
+      "extension": ".docx",
+      "size_bytes": 38381,
+      "source_archive": "source.zip",
+      "archive_path": "Обоснование НМЦК.docx",
+      "extracted_at": "2026-04-06T22:09:05.492569Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "Описание объекта закупки.docx",
+      "stored_filename": "doc_002.docx",
+      "extension": ".docx",
+      "size_bytes": 31822,
+      "source_archive": "source.zip",
+      "archive_path": "Описание объекта закупки.docx",
+      "extracted_at": "2026-04-06T22:09:05.492569Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "Презентация Предложения.odp",
+      "stored_filename": "doc_003.odp",
+      "extension": ".odp",
+      "size_bytes": 2496952,
+      "source_archive": "source.zip",
+      "archive_path": "Презентация Предложения.odp",
+      "extracted_at": "2026-04-06T22:09:05.495578Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "Приложение к Извещению.docx",
+      "stored_filename": "doc_004.docx",
+      "extension": ".docx",
+      "size_bytes": 32091,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение к Извещению.docx",
+      "extracted_at": "2026-04-06T22:09:05.496078Z"
+    },
+    {
+      "doc_id": "doc_005",
+      "original_filename": "Проект государственного контракта.docx",
+      "stored_filename": "doc_005.docx",
+      "extension": ".docx",
+      "size_bytes": 81338,
+      "source_archive": "source.zip",
+      "archive_path": "Проект государственного контракта.docx",
+      "extracted_at": "2026-04-06T22:09:05.496577Z"
+    },
+    {
+      "doc_id": "doc_006",
+      "original_filename": "ССЫЛКА на Руководство по фирменному стилю бренда Работа России.docx",
+      "stored_filename": "doc_006.docx",
+      "extension": ".docx",
+      "size_bytes": 12600,
+      "source_archive": "source.zip",
+      "archive_path": "ССЫЛКА на Руководство по фирменному стилю бренда Работа России.docx",
+      "extracted_at": "2026-04-06T22:09:05.496577Z"
+    },
+    {
+      "doc_id": "doc_007",
+      "original_filename": "тех.паспорт.pdf",
+      "stored_filename": "doc_007.pdf",
+      "extension": ".pdf",
+      "size_bytes": 4509948,
+      "source_archive": "source.zip",
+      "archive_path": "тех.паспорт.pdf",
+      "extracted_at": "2026-04-06T22:09:05.499084Z"
+    },
+    {
+      "doc_id": "doc_008",
+      "original_filename": "Требования к содержанию_ составу заявки на участие в закупке.docx",
+      "stored_filename": "doc_008.docx",
+      "extension": ".docx",
+      "size_bytes": 28612,
+      "source_archive": "source.zip",
+      "archive_path": "Требования к содержанию_ составу заявки на участие в закупке.docx",
+      "extracted_at": "2026-04-06T22:09:05.499584Z"
+    },
+    {
+      "doc_id": "doc_009",
+      "original_filename": "1 нв ¦.pdf",
+      "stored_filename": "doc_009.pdf",
+      "extension": ".pdf",
+      "size_bytes": 511442,
+      "source_archive": "source.zip",
+      "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/1 нв ¦.pdf",
+      "extracted_at": "2026-04-06T22:09:05.514090Z"
+    },
+    {
+      "doc_id": "doc_010",
+      "original_filename": "2 нв ¦.pdf",
+      "stored_filename": "doc_010.pdf",
+      "extension": ".pdf",
+      "size_bytes": 282808,
+      "source_archive": "source.zip",
+      "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/2 нв ¦.pdf",
+      "extracted_at": "2026-04-06T22:09:05.515090Z"
+    },
+    {
+      "doc_id": "doc_011",
+      "original_filename": "3 нв ¦.pdf",
+      "stored_filename": "doc_011.pdf",
+      "extension": ".pdf",
+      "size_bytes": 504490,
+      "source_archive": "source.zip",
+      "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/3 нв ¦.pdf",
+      "extracted_at": "2026-04-06T22:09:05.515589Z"
+    }
+  ],
+  "created_at": "2026-04-03T12:56:01.754710Z",
+  "updated_at": "2026-04-06T22:09:40.600782Z"
+}

@@ -1,0 +1,66 @@
+{
+  "tender_id": "69d49b7bc5f143e47ae54870",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69d49b7bc5f143e47ae54870",
+  "pipeline_state": {
+    "downloaded": "2026-04-07T06:30:38.794748Z",
+    "extracted": "2026-04-07T06:30:38.816785Z",
+    "parsed": "2026-04-07T06:30:41.661481Z",
+    "passports_generated": "2026-04-07T06:30:52.558582Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "Извещение.docx",
+      "stored_filename": "doc_001.docx",
+      "extension": ".docx",
+      "size_bytes": 20511,
+      "source_archive": "source.zip",
+      "archive_path": "Извещение.docx",
+      "extracted_at": "2026-04-07T06:30:38.813282Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "Междуречье - ЛСР по Методике 2020 (РИМ).xlsx",
+      "stored_filename": "doc_002.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 25288,
+      "source_archive": "source.zip",
+      "archive_path": "Междуречье - ЛСР по Методике 2020 (РИМ).xlsx",
+      "extracted_at": "2026-04-07T06:30:38.814288Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "Приложение №1 Описание объекта закупки.docx",
+      "stored_filename": "doc_003.docx",
+      "extension": ".docx",
+      "size_bytes": 17342,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение №1 Описание объекта закупки.docx",
+      "extracted_at": "2026-04-07T06:30:38.814788Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "Приложение №2 (НМЦК).doc",
+      "stored_filename": "doc_004.doc",
+      "extension": ".doc",
+      "size_bytes": 65536,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение №2 (НМЦК).doc",
+      "extracted_at": "2026-04-07T06:30:38.815288Z"
+    },
+    {
+      "doc_id": "doc_005",
+      "original_filename": "Приложение №3 Проект договора.docx",
+      "stored_filename": "doc_005.docx",
+      "extension": ".docx",
+      "size_bytes": 29068,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение №3 Проект договора.docx",
+      "extracted_at": "2026-04-07T06:30:38.815786Z"
+    }
+  ],
+  "created_at": "2026-04-07T06:30:01.494932Z",
+  "updated_at": "2026-04-07T06:30:52.560085Z"
+}

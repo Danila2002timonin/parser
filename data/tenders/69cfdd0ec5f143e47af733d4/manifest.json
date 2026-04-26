@@ -1,0 +1,346 @@
+{
+  "tender_id": "69cfdd0ec5f143e47af733d4",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69cfdd0ec5f143e47af733d4",
+  "pipeline_state": {
+    "downloaded": "2026-04-04T00:33:04.555300Z",
+    "extracted": "2026-04-04T00:33:05.772604Z",
+    "parsed": "2026-04-04T00:34:42.464401Z",
+    "passports_generated": "2026-04-04T00:36:22.008448Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "1. АД (аук одноэтапный)  .docx",
+      "stored_filename": "doc_001.docx",
+      "extension": ".docx",
+      "size_bytes": 90008,
+      "source_archive": "source.zip",
+      "archive_path": "1. АД (аук одноэтапный)  .docx",
+      "extracted_at": "2026-04-04T00:33:04.632391Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "2. Приложение № 1 к Документации (Техническое задание)  .docx",
+      "stored_filename": "doc_002.docx",
+      "extension": ".docx",
+      "size_bytes": 28694,
+      "source_archive": "source.zip",
+      "archive_path": "2. Приложение № 1 к Документации (Техническое задание)  .docx",
+      "extracted_at": "2026-04-04T00:33:04.632890Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "3. Приложение № 2 к Документации (Проект договора)  .docx",
+      "stored_filename": "doc_003.docx",
+      "extension": ".docx",
+      "size_bytes": 71664,
+      "source_archive": "source.zip",
+      "archive_path": "3. Приложение № 2 к Документации (Проект договора)  .docx",
+      "extracted_at": "2026-04-04T00:33:04.633891Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "4. Приложение № 3 к Документации ОНМЦД  .pdf",
+      "stored_filename": "doc_004.pdf",
+      "extension": ".pdf",
+      "size_bytes": 197082,
+      "source_archive": "source.zip",
+      "archive_path": "4. Приложение № 3 к Документации ОНМЦД  .pdf",
+      "extracted_at": "2026-04-04T00:33:04.634390Z"
+    },
+    {
+      "doc_id": "doc_005",
+      "original_filename": "6. Приложение № 5 к Документации (Сводный сметный расчет)  .xlsx",
+      "stored_filename": "doc_005.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 24547,
+      "source_archive": "source.zip",
+      "archive_path": "6. Приложение № 5 к Документации (Сводный сметный расчет)  .xlsx",
+      "extracted_at": "2026-04-04T00:33:04.634891Z"
+    },
+    {
+      "doc_id": "doc_006",
+      "original_filename": "7. Приложение № 6 к Документации (Форма заявки)  .doc",
+      "stored_filename": "doc_006.doc",
+      "extension": ".doc",
+      "size_bytes": 36864,
+      "source_archive": "source.zip",
+      "archive_path": "7. Приложение № 6 к Документации (Форма заявки)  .doc",
+      "extracted_at": "2026-04-04T00:33:04.635390Z"
+    },
+    {
+      "doc_id": "doc_007",
+      "original_filename": "АД (СКАН).pdf",
+      "stored_filename": "doc_007.pdf",
+      "extension": ".pdf",
+      "size_bytes": 11097217,
+      "source_archive": "source.zip",
+      "archive_path": "АД (СКАН).pdf",
+      "extracted_at": "2026-04-04T00:33:04.642707Z"
+    },
+    {
+      "doc_id": "doc_008",
+      "original_filename": "Раздел ПД №12. ЛС 02-01-01 КР_фундаментные плиты - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_008.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 34714,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 02-01-01 КР_фундаментные плиты - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.043348Z"
+    },
+    {
+      "doc_id": "doc_009",
+      "original_filename": "Раздел ПД №12. ЛС 02-01-02 ТХ_фундаменты под спортивное оборудование - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_009.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 51563,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 02-01-02 ТХ_фундаменты под спортивное оборудование - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.043849Z"
+    },
+    {
+      "doc_id": "doc_010",
+      "original_filename": "Раздел ПД №12. ЛС 04-01-01 Внутриплощадочные сети электроснабжения - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_010.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 77444,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 04-01-01 Внутриплощадочные сети электроснабжения - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.044349Z"
+    },
+    {
+      "doc_id": "doc_011",
+      "original_filename": "Раздел ПД №12. ЛС 04-01-02 Внутриплощадочные сети электроснабжения. Устройство резервных кабельных линий - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_011.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 78959,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 04-01-02 Внутриплощадочные сети электроснабжения. Устройство резервных кабельных линий - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.044845Z"
+    },
+    {
+      "doc_id": "doc_012",
+      "original_filename": "Раздел ПД №12. ЛС 05-01-01 Наружные сети связи - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_012.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 146913,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 05-01-01 Наружные сети связи - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.045337Z"
+    },
+    {
+      "doc_id": "doc_013",
+      "original_filename": "Раздел ПД №12. ЛС 06-02-01 Наружные сети водоотведения - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_013.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 37773,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 06-02-01 Наружные сети водоотведения - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.046337Z"
+    },
+    {
+      "doc_id": "doc_014",
+      "original_filename": "Раздел ПД №12. ЛС 07-01-02 Благоустройство площадок - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_014.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 34381,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 07-01-02 Благоустройство площадок - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.046837Z"
+    },
+    {
+      "doc_id": "doc_015",
+      "original_filename": "Раздел ПД №12. ЛС 07-01-03 Озеленение - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_015.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 44525,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 07-01-03 Озеленение - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.047337Z"
+    },
+    {
+      "doc_id": "doc_016",
+      "original_filename": "Раздел ПД №12. ЛС 07-02-01 Наружное электроосвещение - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "stored_filename": "doc_016.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 122908,
+      "source_archive": "source.zip",
+      "archive_path": "5. Приложение № 4 к Документации  (Локально-сметные расчеты)  .rar/Раздел ПД №12. ЛС 07-02-01 Наружное электроосвещение - ЛСР по Методике 2020 (РИМ)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.047837Z"
+    },
+    {
+      "doc_id": "doc_017",
+      "original_filename": "39М3-Р-2024-СС.pdf",
+      "stored_filename": "doc_017.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2785455,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/39М3-Р-2024-СС.pdf",
+      "extracted_at": "2026-04-04T00:33:05.425159Z"
+    },
+    {
+      "doc_id": "doc_018",
+      "original_filename": "39М3-Р-2024-ЭН.pdf",
+      "stored_filename": "doc_018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1656220,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/39М3-Р-2024-ЭН.pdf",
+      "extracted_at": "2026-04-04T00:33:05.425658Z"
+    },
+    {
+      "doc_id": "doc_019",
+      "original_filename": "39М3-Р-2024-ЭС.1.pdf",
+      "stored_filename": "doc_019.pdf",
+      "extension": ".pdf",
+      "size_bytes": 820110,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/39М3-Р-2024-ЭС.1.pdf",
+      "extracted_at": "2026-04-04T00:33:05.426658Z"
+    },
+    {
+      "doc_id": "doc_020",
+      "original_filename": "39М3-Р-2024-ЭС.pdf",
+      "stored_filename": "doc_020.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1442042,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/39М3-Р-2024-ЭС.pdf",
+      "extracted_at": "2026-04-04T00:33:05.427158Z"
+    },
+    {
+      "doc_id": "doc_021",
+      "original_filename": "8-25-КР.pdf",
+      "stored_filename": "doc_021.pdf",
+      "extension": ".pdf",
+      "size_bytes": 808564,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/8-25-КР.pdf",
+      "extracted_at": "2026-04-04T00:33:05.428158Z"
+    },
+    {
+      "doc_id": "doc_022",
+      "original_filename": "Подраздел №5.3_ 8-25-ИОС3_2 система водоотведения.pdf",
+      "stored_filename": "doc_022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 6380758,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/Подраздел №5.3_ 8-25-ИОС3_2 система водоотведения.pdf",
+      "extracted_at": "2026-04-04T00:33:05.429658Z"
+    },
+    {
+      "doc_id": "doc_023",
+      "original_filename": "Подраздел №5.7_ 8-25-ИОС5.7 Технические решения.pdf",
+      "stored_filename": "doc_023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 6867180,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/Подраздел №5.7_ 8-25-ИОС5.7 Технические решения.pdf",
+      "extracted_at": "2026-04-04T00:33:05.432158Z"
+    },
+    {
+      "doc_id": "doc_024",
+      "original_filename": "Раздел ПД №2_ 8-25-ПЗУ-2.1.pdf",
+      "stored_filename": "doc_024.pdf",
+      "extension": ".pdf",
+      "size_bytes": 3954499,
+      "source_archive": "source.zip",
+      "archive_path": "8. Приложение № 7 к Документации (Проектная документация)  .rar/Раздел ПД №2_ 8-25-ПЗУ-2.1.pdf",
+      "extracted_at": "2026-04-04T00:33:05.433158Z"
+    },
+    {
+      "doc_id": "doc_025",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 02-01-01 КР_фундаментные плиты - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_025.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 16988,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 02-01-01 КР_фундаментные плиты - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.762104Z"
+    },
+    {
+      "doc_id": "doc_026",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 02-01-02 ТХ_фундаменты под спортивное оборудование - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_026.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 15541,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 02-01-02 ТХ_фундаменты под спортивное оборудование - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.762604Z"
+    },
+    {
+      "doc_id": "doc_027",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 04-01-01 Внутриплощадочные сети электроснабжения - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_027.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 18157,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 04-01-01 Внутриплощадочные сети электроснабжения - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.763104Z"
+    },
+    {
+      "doc_id": "doc_028",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 04-01-02 Внутриплощадочные сети электроснабжения. Устройство резервных кабельных линий - ВОР (пример по ФГИС)01.03.202.xlsx",
+      "stored_filename": "doc_028.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 18872,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 04-01-02 Внутриплощадочные сети электроснабжения. Устройство резервных кабельных линий - ВОР (пример по ФГИС)01.03.202.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.763604Z"
+    },
+    {
+      "doc_id": "doc_029",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 05-01-01 Наружние сети связи - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_029.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 25950,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 05-01-01 Наружние сети связи - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.764104Z"
+    },
+    {
+      "doc_id": "doc_030",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 06-02-01 Наружные сети водоотведения - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_030.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 14548,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 06-02-01 Наружные сети водоотведения - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.764604Z"
+    },
+    {
+      "doc_id": "doc_031",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 07-01-02 Благоустройство площадок - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_031.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 13592,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 07-01-02 Благоустройство площадок - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.765104Z"
+    },
+    {
+      "doc_id": "doc_032",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 07-01-03 Озеленение - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_032.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 15885,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 07-01-03 Озеленение - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.765605Z"
+    },
+    {
+      "doc_id": "doc_033",
+      "original_filename": "Раздел ПД №12.  ВОР к ЛС 07-02-01 Наружное электроосвещение - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "stored_filename": "doc_033.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 22516,
+      "source_archive": "source.zip",
+      "archive_path": "9. Приложение № 8 к Документации (Ведомости объемов работ)  .rar/Раздел ПД №12.  ВОР к ЛС 07-02-01 Наружное электроосвещение - ВОР (пример по ФГИС)01.03.2026.xlsx",
+      "extracted_at": "2026-04-04T00:33:05.766104Z"
+    }
+  ],
+  "created_at": "2026-04-04T00:33:04.555300Z",
+  "updated_at": "2026-04-04T00:36:22.008448Z"
+}

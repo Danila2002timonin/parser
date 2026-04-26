@@ -1,0 +1,165 @@
+{
+  "doc_id": "doc_006",
+  "source_filename": "doc_006.docx",
+  "source_format": "docx",
+  "parsed_at": "2026-04-04T00:33:08.600729Z",
+  "parser_version": "0.1.0",
+  "total_pages": null,
+  "blocks": [
+    {
+      "block_id": "doc_006_tbl_001",
+      "type": "table",
+      "page": null,
+      "page_end": null,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "Приложение № 6 к Документации"
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_006_tbl_001.xlsx"
+    },
+    {
+      "block_id": "doc_006_b001",
+      "type": "text",
+      "page": null,
+      "content": "Бланк организации",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b002",
+      "type": "text",
+      "page": null,
+      "content": "ФОРМА ЗАЯВКИ",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b003",
+      "type": "text",
+      "page": null,
+      "content": "на участие в одноэтапном аукционе в электронной форме на ___________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b004",
+      "type": "text",
+      "page": null,
+      "content": "«___» ______________ 2026 г.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b005",
+      "type": "text",
+      "page": null,
+      "content": "Настоящей заявкой мы (-я), _____________________________________________________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b006",
+      "type": "text",
+      "page": null,
+      "content": "_____________________________________________________________________________,",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b007",
+      "type": "text",
+      "page": null,
+      "content": "(наименование участника закупки)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b008",
+      "type": "text",
+      "page": null,
+      "content": "_____________________________________________________________________________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b009",
+      "type": "text",
+      "page": null,
+      "content": "(Идентификационный номер участника закупки, идентификационный номер налогоплательщика (при наличии) учредителей, членов коллегиального исполнительного органа, лица, исполняющего функции единоличного исполнительного органа участника закупки)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b010",
+      "type": "text",
+      "page": null,
+      "content": "_____________________________________________________________________________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b011",
+      "type": "text",
+      "page": null,
+      "content": "(адрес место нахождения (для юридического лица), фамилию, имя, отчество (при наличии), место жительства (для физического лица), почтовый адрес и банковские реквизиты участника закупки)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b012",
+      "type": "text",
+      "page": null,
+      "content": "изучив размещенное Вами извещение о проведении одноэтапного аукциона в электронной форме, сообщаем (-ю) о своем согласии выполнить работы согласно _____________________ к настоящей заявке ______________________________________________________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b013",
+      "type": "text",
+      "page": null,
+      "content": "(полное наименование объекта закупки)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b014",
+      "type": "text",
+      "page": null,
+      "content": "и исполнить в полном объеме и в установленные сроки все условия договора, указанные в извещении о проведении одноэтапного аукциона в электронной форме (техническом задании, проекте договора, приложениях) от \"____\" ___________________ 2026 г. (дата размещения извещения в единой информационной системе), извещение № __________ (номер извещения в единой информационной системе).",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b015",
+      "type": "text",
+      "page": null,
+      "content": "__________________________________\t_________________    __________________",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b016",
+      "type": "text",
+      "page": null,
+      "content": "(должность уполномоченного лица)                             (подпись)                              (расшифровка подписи)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_006_b017",
+      "type": "text",
+      "page": null,
+      "content": "М.П.",
+      "heading_level": null,
+      "section_path": null
+    }
+  ]
+}

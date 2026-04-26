@@ -1,0 +1,2273 @@
+{
+  "doc_id": "doc_021",
+  "source_filename": "doc_021.pdf",
+  "source_format": "pdf",
+  "parsed_at": "2026-04-04T00:33:56.264398Z",
+  "parser_version": "0.1.0",
+  "total_pages": 7,
+  "blocks": [
+    {
+      "block_id": "doc_021_tbl_001",
+      "type": "table",
+      "page": 1,
+      "page_end": 1,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "АКЦИОНЕРНОЕ ОБЩЕСТВО «СИТРОНИКС»"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "Свидетельство о допуске к определенному виду работ, которые оказывают влияние на безопасность объекта капитального строительства № 0073.03-2017-7735116621- П-163 от 11.05.2017 ПРОВЕДЕНИЕ РАБОТ ПО БЛАГОУСТРОЙСТВУ ТЕРРИТОРИИ (ЕЕ ЭЛЕМЕНТОВ) ДЛЯ СОЗДАНИЯ «УМНОЙ» СПОРТИВНОЙ ПЛОЩАДКИ ПО АДРЕСУ: КАДАСТРОВЫЕ НОМЕРА УЧАСТКОВ: 63:01:0104002:1115, 63:01:0104002:1117. САМАРСКАЯ ОБЛАСТЬ, Г. САМАРА, ЖЕЛЕЗНОДОРОЖНЫЙ РАЙОН, УЛ. СПОРТИВНАЯ. РАБОЧАЯ ДОКУМЕНТАЦИЯ Раздел КР «Конструктивные решения» 8-25-КР Изм. № док. Подп. Дата 2025"
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_001.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_002",
+      "type": "table",
+      "page": 1,
+      "page_end": 2,
+      "caption": null,
+      "col_count": 4,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "Изм.",
+            "№ док.",
+            "Подп.",
+            "Дата"
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_002.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_003",
+      "type": "table",
+      "page": 2,
+      "page_end": 2,
+      "caption": null,
+      "col_count": 3,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "АКЦИОНЕРНОЕ ОБЩЕСТВО «СИТРОНИКС»"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "",
+            "Свидетельство о допуске к определенному виду работ, которые оказывают влияние на безопасность объекта капитального строительства № 0073.03-2017-7735116621- П-163 от 11.05.2017 ПРОВЕДЕНИЕ РАБОТ ПО БЛАГОУСТРОЙСТВУ ТЕРРИТОРИИ (ЕЕ ЭЛЕМЕНТОВ) ДЛЯ СОЗДАНИЯ «УМНОЙ» СПОРТИВНОЙ ПЛОЩАДКИ ПО АДРЕСУ: КАДАСТРОВЫЕ НОМЕРА УЧАСТКОВ: 63:01:0104002:1115, 63:01:0104002:1117. САМАРСКАЯ ОБЛАСТЬ, Г. САМАРА, ЖЕЛЕЗНОДОРОЖНЫЙ РАЙОН, УЛ. СПОРТИВНАЯ. РАБОЧАЯ ДОКУМЕНТАЦИЯ Раздел КР «Конструктивные решения» 8-25-КР Изм. № док. Подп. Дата Директор департамента _____________ Анисимов И.В. Главный инженер проекта _____________ Зверобоев О.Л. 2025"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "№ .в н и .м а з В",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "а т а д И .п д о П",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ".л д о п № .в н И",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_003.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_004",
+      "type": "table",
+      "page": 2,
+      "page_end": 3,
+      "caption": null,
+      "col_count": 4,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "Изм.",
+            "№ док.",
+            "Подп.",
+            "Дата"
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_004.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_005",
+      "type": "table",
+      "page": 3,
+      "page_end": 3,
+      "caption": null,
+      "col_count": 11,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_005.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_006",
+      "type": "table",
+      "page": 3,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_006.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_007",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 7,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_007.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_008",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_008.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_009",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_009.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_010",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_010.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_011",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 3,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_011.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_012",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_012.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_013",
+      "type": "table",
+      "page": 4,
+      "page_end": 4,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_013.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_014",
+      "type": "table",
+      "page": 4,
+      "page_end": 5,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_014.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_015",
+      "type": "table",
+      "page": 5,
+      "page_end": 5,
+      "caption": null,
+      "col_count": 7,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_015.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_016",
+      "type": "table",
+      "page": 5,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_016.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_017",
+      "type": "table",
+      "page": 6,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 7,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_017.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_018",
+      "type": "table",
+      "page": 6,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 21,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_018.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_019",
+      "type": "table",
+      "page": 6,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_019.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_020",
+      "type": "table",
+      "page": 6,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_020.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_021",
+      "type": "table",
+      "page": 6,
+      "page_end": 6,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_021.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_022",
+      "type": "table",
+      "page": 6,
+      "page_end": 7,
+      "caption": null,
+      "col_count": 4,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_022.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_023",
+      "type": "table",
+      "page": 7,
+      "page_end": 7,
+      "caption": null,
+      "col_count": 9,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_023.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_024",
+      "type": "table",
+      "page": 7,
+      "page_end": 7,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_024.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_025",
+      "type": "table",
+      "page": 7,
+      "page_end": 7,
+      "caption": null,
+      "col_count": 1,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_025.xlsx"
+    },
+    {
+      "block_id": "doc_021_tbl_026",
+      "type": "table",
+      "page": 7,
+      "page_end": 7,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_021_tbl_026.xlsx"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "tender_id": "69ce8494c5f143e47a8da732",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69ce8494c5f143e47a8da732",
+  "pipeline_state": {
+    "downloaded": "2026-04-06T22:12:38.329223Z",
+    "extracted": "2026-04-06T22:12:38.351738Z",
+    "parsed": "2026-04-06T22:12:39.009459Z",
+    "passports_generated": "2026-04-06T22:12:49.141276Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "Приложение № 1 Описание объекта.docx",
+      "stored_filename": "doc_001.docx",
+      "extension": ".docx",
+      "size_bytes": 120574,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение № 1 Описание объекта.docx",
+      "extracted_at": "2026-04-06T22:12:38.348724Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "Приложение № 2 Расчет НМЦК_Поставка-дезинфицирующих-средств-на-2026-год.xlsx",
+      "stored_filename": "doc_002.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 28084,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение № 2 Расчет НМЦК_Поставка-дезинфицирующих-средств-на-2026-год.xlsx",
+      "extracted_at": "2026-04-06T22:12:38.349224Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "Приложение № 3 Требования к содержанию, составу заявки на участие в закупке итог.docx",
+      "stored_filename": "doc_003.docx",
+      "extension": ".docx",
+      "size_bytes": 49253,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение № 3 Требования к содержанию, составу заявки на участие в закупке итог.docx",
+      "extracted_at": "2026-04-06T22:12:38.349224Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "Приложение № 4 Проект контракта ЭА без объема.docx",
+      "stored_filename": "doc_004.docx",
+      "extension": ".docx",
+      "size_bytes": 72427,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение № 4 Проект контракта ЭА без объема.docx",
+      "extracted_at": "2026-04-06T22:12:38.350230Z"
+    },
+    {
+      "doc_id": "doc_005",
+      "original_filename": "Приложение №5 Обоснование включения доп характеристик.docx",
+      "stored_filename": "doc_005.docx",
+      "extension": ".docx",
+      "size_bytes": 114294,
+      "source_archive": "source.zip",
+      "archive_path": "Приложение №5 Обоснование включения доп характеристик.docx",
+      "extracted_at": "2026-04-06T22:12:38.350735Z"
+    }
+  ],
+  "created_at": "2026-04-02T18:45:33.237466Z",
+  "updated_at": "2026-04-06T22:12:49.142776Z"
+}

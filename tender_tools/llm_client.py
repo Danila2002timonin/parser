@@ -159,10 +159,14 @@ class LLMClient:
                     usage.get("completion_tokens", 0),
                 )
 
+                duration_ms = int((time.time() - _req_start) * 1000)
                 self._log_usage(
                     usage=usage,
-                    duration_ms=int((time.time() - _req_start) * 1000),
+                    duration_ms=duration_ms,
                     status="success",
+                )
+                self._log_langfuse_generation(
+                    "chat", messages, content, usage, duration_ms,
                 )
 
                 return content
@@ -308,6 +312,9 @@ class LLMClient:
                 )
 
                 self._log_usage(usage=usage, duration_ms=duration_ms, status="success")
+                self._log_langfuse_generation(
+                    f"structured:{schema_name}", messages, content, usage, duration_ms,
+                )
 
                 return json.loads(content)
 
@@ -427,6 +434,45 @@ class LLMClient:
         except Exception as exc:
             logger.debug("Не удалось записать api_usage: %s", exc)
 
+
+    def _log_langfuse_generation(
+        self,
+        name: str,
+        messages: list[dict],
+        output: str,
+        usage: dict,
+        duration_ms: int,
+    ) -> None:
+        """Логирует LLM-вызов в Langfuse как generation с токенами и стоимостью."""
+        try:
+            from agent.tracing import _enabled, _langfuse
+            if not _enabled or not _langfuse:
+                return
+
+            prompt_tokens = usage.get("prompt_tokens", 0)
+            completion_tokens = usage.get("completion_tokens", 0)
+            pricing = _PRICING.get(self.model)
+            input_cost = (prompt_tokens / 1_000_000) * pricing[0] if pricing else None
+            output_cost = (completion_tokens / 1_000_000) * pricing[1] if pricing else None
+
+            with _langfuse.start_as_current_observation(
+                name=f"llm:{name}",
+                input=messages[-1]["content"][:500] if messages else "",
+                output=output[:500] if output else "",
+                metadata={
+                    "model": self.model,
+                    "prompt_tokens": prompt_tokens,
+                    "completion_tokens": completion_tokens,
+                    "total_tokens": usage.get("total_tokens", 0),
+                    "duration_ms": duration_ms,
+                    "cost_input_usd": input_cost,
+                    "cost_output_usd": output_cost,
+                    "cost_total_usd": round(input_cost + output_cost, 6) if input_cost and output_cost else None,
+                },
+            ):
+                pass
+        except Exception as exc:
+            logger.debug("Langfuse generation log error: %s", exc)
 
     def close(self) -> None:
         self._client.close()

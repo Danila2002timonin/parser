@@ -1,5 +1,7 @@
 /venv
 /env
 .env
-/data
+# /data
 /document_parsing_experiments
+# /agent
+# /original_autoresearch_repo

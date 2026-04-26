@@ -1,0 +1,66 @@
+{
+  "tender_id": "69cf9dd6c5f143e47a693192",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69cf9dd6c5f143e47a693192",
+  "pipeline_state": {
+    "downloaded": "2026-04-04T00:15:22.297065Z",
+    "extracted": "2026-04-04T00:15:22.317073Z",
+    "parsed": "2026-04-04T00:15:34.946404Z",
+    "passports_generated": "2026-04-04T00:15:44.580883Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "Автоматический контроль.pdf",
+      "stored_filename": "doc_001.pdf",
+      "extension": ".pdf",
+      "size_bytes": 30794,
+      "source_archive": "source.zip",
+      "archive_path": "Автоматический контроль.pdf",
+      "extracted_at": "2026-04-04T00:15:22.313573Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "ЖК_18__описание_объекта_поставка_дез.средства_(средства_дез.,_салфетка)_2026.doc",
+      "stored_filename": "doc_002.doc",
+      "extension": ".doc",
+      "size_bytes": 712704,
+      "source_archive": "source.zip",
+      "archive_path": "ЖК_18__описание_объекта_поставка_дез.средства_(средства_дез.,_салфетка)_2026.doc",
+      "extracted_at": "2026-04-04T00:15:22.314577Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "ЖК_18_НМЦК_дез.средства_на_2026.xls",
+      "stored_filename": "doc_003.xls",
+      "extension": ".xls",
+      "size_bytes": 62976,
+      "source_archive": "source.zip",
+      "archive_path": "ЖК_18_НМЦК_дез.средства_на_2026.xls",
+      "extracted_at": "2026-04-04T00:15:22.315075Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "ЖК_18_Проект_договора_поставка_дез.средств_на_2026.doc",
+      "stored_filename": "doc_004.doc",
+      "extension": ".doc",
+      "size_bytes": 208384,
+      "source_archive": "source.zip",
+      "archive_path": "ЖК_18_Проект_договора_поставка_дез.средств_на_2026.doc",
+      "extracted_at": "2026-04-04T00:15:22.315577Z"
+    },
+    {
+      "doc_id": "doc_005",
+      "original_filename": "ЖК_18_Требование_к_сод_и_сост_заявки_.doc",
+      "stored_filename": "doc_005.doc",
+      "extension": ".doc",
+      "size_bytes": 90112,
+      "source_archive": "source.zip",
+      "archive_path": "ЖК_18_Требование_к_сод_и_сост_заявки_.doc",
+      "extracted_at": "2026-04-04T00:15:22.316075Z"
+    }
+  ],
+  "created_at": "2026-04-04T00:15:22.297065Z",
+  "updated_at": "2026-04-04T00:15:44.580883Z"
+}

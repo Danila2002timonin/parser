@@ -1,0 +1,22 @@
+{
+  "doc_id": "doc_011",
+  "source_filename": "doc_011.pdf",
+  "source_format": "pdf",
+  "parsed_at": "2026-04-06T22:09:15.004931Z",
+  "parser_version": "0.1.0",
+  "total_pages": 1,
+  "blocks": [
+    {
+      "block_id": "doc_011_scan_001",
+      "type": "image",
+      "page": 1,
+      "image_ref": null,
+      "width_px": null,
+      "height_px": null,
+      "caption": null,
+      "ocr_text": "III 3111411\n\n![img-0.jpeg](img-0.jpeg)",
+      "ocr_status": "completed",
+      "section_path": null
+    }
+  ]
+}

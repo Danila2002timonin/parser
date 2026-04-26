@@ -1,0 +1,56 @@
+{
+  "tender_id": "69d3cd2dc5f143e47a8f4bc0",
+  "status": "indexed",
+  "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69d3cd2dc5f143e47a8f4bc0",
+  "pipeline_state": {
+    "downloaded": "2026-04-06T22:26:30.119419Z",
+    "extracted": "2026-04-06T22:26:30.140942Z",
+    "parsed": "2026-04-06T22:26:31.044659Z",
+    "passports_generated": "2026-04-06T22:26:43.762922Z",
+    "indexed": null
+  },
+  "documents": [
+    {
+      "doc_id": "doc_001",
+      "original_filename": "682 3. Требования к заявке.docx",
+      "stored_filename": "doc_001.docx",
+      "extension": ".docx",
+      "size_bytes": 19108,
+      "source_archive": "source.zip",
+      "archive_path": "682 3. Требования к заявке.docx",
+      "extracted_at": "2026-04-06T22:26:30.137933Z"
+    },
+    {
+      "doc_id": "doc_002",
+      "original_filename": "682 4. Проект контракта.docx",
+      "stored_filename": "doc_002.docx",
+      "extension": ".docx",
+      "size_bytes": 81231,
+      "source_archive": "source.zip",
+      "archive_path": "682 4. Проект контракта.docx",
+      "extracted_at": "2026-04-06T22:26:30.138933Z"
+    },
+    {
+      "doc_id": "doc_003",
+      "original_filename": "I. Описание объекта закупки для ЕИС.docx",
+      "stored_filename": "doc_003.docx",
+      "extension": ".docx",
+      "size_bytes": 43692,
+      "source_archive": "source.zip",
+      "archive_path": "I. Описание объекта закупки для ЕИС.docx",
+      "extracted_at": "2026-04-06T22:26:30.139433Z"
+    },
+    {
+      "doc_id": "doc_004",
+      "original_filename": "II. Обоснование НМЦК для ЕИС.xlsx",
+      "stored_filename": "doc_004.xlsx",
+      "extension": ".xlsx",
+      "size_bytes": 14781,
+      "source_archive": "source.zip",
+      "archive_path": "II. Обоснование НМЦК для ЕИС.xlsx",
+      "extracted_at": "2026-04-06T22:26:30.139433Z"
+    }
+  ],
+  "created_at": "2026-04-06T22:26:30.119419Z",
+  "updated_at": "2026-04-06T22:26:43.763422Z"
+}

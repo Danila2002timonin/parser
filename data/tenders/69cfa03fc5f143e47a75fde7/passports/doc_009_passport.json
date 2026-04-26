@@ -1,0 +1,31 @@
+{
+  "doc_id": "doc_009",
+  "source_filename": "doc_009.pdf",
+  "doc_type": "other",
+  "title": "doc_009.pdf",
+  "summary": "Документ содержит нечитаемый или поврежденный текст 'I amone' на первой странице, а также ссылку на изображение 'img-0.jpeg'. Вероятно, это результат неудачного OCR или неполный файл из тендерной документации.",
+  "sections": [
+    {
+      "section_id": "1",
+      "title": "Страница 1",
+      "summary": "Нечитаемый текст и изображение.",
+      "key_entities": [
+        "I amone",
+        "img-0.jpeg"
+      ]
+    }
+  ],
+  "key_topics": [
+    "Неудачный OCR",
+    "Изображение"
+  ],
+  "key_entities": [
+    "I amone",
+    "img-0.jpeg"
+  ],
+  "text_blocks_count": 0,
+  "tables_count": 0,
+  "images_count": 1,
+  "estimated_tokens": 18,
+  "generated_at": "2026-04-06T22:09:29.852224Z"
+}

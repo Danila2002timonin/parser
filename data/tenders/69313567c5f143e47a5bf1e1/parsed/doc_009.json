@@ -1,0 +1,729 @@
+{
+  "doc_id": "doc_009",
+  "source_filename": "doc_009.docx",
+  "source_format": "docx",
+  "parsed_at": "2026-04-06T22:18:20.074733Z",
+  "parser_version": "0.1.0",
+  "total_pages": null,
+  "blocks": [
+    {
+      "block_id": "doc_009_b001",
+      "type": "text",
+      "page": null,
+      "content": "Приложение №1.14",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b002",
+      "type": "text",
+      "page": null,
+      "content": "к Техническим требованиям",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b003",
+      "type": "text",
+      "page": null,
+      "content": "Требования к оформлению сметной документации",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b004",
+      "type": "text",
+      "page": null,
+      "content": "При составлении сметного расчета по трудозатратам (форма 3п), обоснование расчета трудозатрат представляется заказчику по его просьбе. Сметные расчеты составляются в ценах текущего периода.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b005",
+      "type": "text",
+      "page": null,
+      "content": "Расчетом по трудозатратам (форма 3п) рекомендуется определять стоимость работ, цены на которые отсутствуют в СБЦ и СЦ, внесенных в Федеральный реестр сметных нормативов.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b006",
+      "type": "text",
+      "page": null,
+      "content": "Форма сметы для определения затрат по себестоимости и уровню рентабельности (форма 3п) приведена в образце 3П Приложения 2.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b007",
+      "type": "text",
+      "page": null,
+      "content": "Особенности заполнения формы 3п.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b008",
+      "type": "text",
+      "page": null,
+      "content": "Раздел 1. Расчет заработной платы:",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b009",
+      "type": "text",
+      "page": null,
+      "content": "в графе 1 приводится нумерация выполняемых работ;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b010",
+      "type": "text",
+      "page": null,
+      "content": "в графе 2 приводится наименование выполняемых работ;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b011",
+      "type": "text",
+      "page": null,
+      "content": "в графе 3 указывается количество привлекаемых работников;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b012",
+      "type": "text",
+      "page": null,
+      "content": "в графе 4 указывается наименование должности (при необходимости с указанием конкретных фамилий) работников, участвующих в выполнении каждой из приведенных работ в графе 2 работ;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b013",
+      "type": "text",
+      "page": null,
+      "content": "в графе 5 для каждой должностной группы (при необходимости с указанием конкретных фамилий) работников, участвующих в выполнении данной работы, указывается общее количество рабочих дней, необходимых данной квалификационной группе для её выполнения; рабочее время не должно превышать значений, определенных по временным нормам;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b014",
+      "type": "text",
+      "page": null,
+      "content": "в графе 6 приводятся данные по стоимости 1 человеко-дня в рублях по категориям работников. Стоимость 1 человеко-дня непосредственных исполнителей приводится по штатному расписанию основного производственного персонала исходя из установленных в нем окладов, а также выплат стимулирующего и компенсирующего характера, установленных Положением о премировании работников предприятия.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b015",
+      "type": "text",
+      "page": null,
+      "content": "в графе 7 указывается заработная плата в рублях (результат перемножения граф 5 и 6);",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b016",
+      "type": "text",
+      "page": null,
+      "content": "Данные по количеству человек, дней и категорий непосредственных исполнителей, приведенные в графах 3, 4, 5, указываются в соответствии с экспертной оценкой трудоемкости этих работ или на базе имеющихся в организации проработок, определяющих нормативы их трудоемкости.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b017",
+      "type": "text",
+      "page": null,
+      "content": "Раздел 2. Расчет стоимости выполнения работ",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b018",
+      "type": "text",
+      "page": null,
+      "content": "в пункте 2.1 указываются накладные расходы. Данные по оплате труда, накладным расходам, уровню рентабельности организации принимаются в соответствии с плановыми показателями на соответствующий период выполнения работ и утверждаются внутренним документом организации.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b019",
+      "type": "text",
+      "page": null,
+      "content": "в пункте 2.2 производится расчет себестоимости работ на основании выполненного в разделе 1 расчета заработной платы и накладных расходов (сложение итога графы 7 раздела 1 и пункта 2.1);",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b020",
+      "type": "text",
+      "page": null,
+      "content": "в пункте 2.3 указывается уровень рентабельности (размер сметной прибыли), принимается по данным организации в соответствии с финансовым планом;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b021",
+      "type": "text",
+      "page": null,
+      "content": "уровень рентабельности по отношению к себестоимости может составлять до 10%.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b022",
+      "type": "text",
+      "page": null,
+      "content": "К сметной документации необходимо приложить все справочные данные по вышеуказанным экономическим характеристикам предприятия в виде официальной справки (образец в Приложении №1 к пояснительной записке по заполнению формы 3П).",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b023",
+      "type": "text",
+      "page": null,
+      "content": "Раздел 3. Расчет командировочных расходов.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b024",
+      "type": "text",
+      "page": null,
+      "content": "Командировочные расходы включаются в сметный расчет отдельной строкой (пункт 3 формы 3П) по отдельно выполненному расчету с расшифровкой затрат на проезд, проживание, суточные расходы. Размер расходов на проезд и стоимость проживания в гостинице определяется на момент составления расчета.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b025",
+      "type": "text",
+      "page": null,
+      "content": "Размеры возмещения расходов, связанных со служебными командировками, определяются коллективным договором и/или локальным нормативным актом организации–исполнителя, но не выше нормативов возмещения расходов, связанных со служебными командировками, установленных локальным нормативным актом организации–заказчика.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b026",
+      "type": "text",
+      "page": null,
+      "content": "Лимиты командировочных расходов:",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b027",
+      "type": "text",
+      "page": null,
+      "content": "суточные - не более 700 руб./сутки;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b028",
+      "type": "text",
+      "page": null,
+      "content": "проживание - до 4000 руб./сутки;",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b029",
+      "type": "text",
+      "page": null,
+      "content": "проезд: поезд (купе) или самолет (класс – эконом).",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b030",
+      "type": "text",
+      "page": null,
+      "content": "При учете командировочных расходов стоимость проезда (авиа-, ж/д, …) и проживания определяется в соответствии с приложением “Метод анализа ТКП”.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b031",
+      "type": "text",
+      "page": null,
+      "content": "При наличии командировочных расходов необходимо составлять общий реестр стоимости проездных билетов с разбивкой по сметам, к которым они относятся.",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b032",
+      "type": "text",
+      "page": null,
+      "content": "Приложение №1",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b033",
+      "type": "text",
+      "page": null,
+      "content": "к требованиям к оформлению сметной документации",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b034",
+      "type": "text",
+      "page": null,
+      "content": "СПРАВКА (Образец)",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b035",
+      "type": "text",
+      "page": null,
+      "content": "Настоящим (Краткое/Полное наименование организации подрядчика/контрагента) сообщает о том, что средняя оплата труда специалистов за рабочий день составляет:",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_tbl_001",
+      "type": "table",
+      "page": null,
+      "page_end": null,
+      "caption": null,
+      "col_count": 3,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "№ п/п",
+            "Должность специалиста",
+            "Заработная плата в день, в руб."
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "1",
+            "______________",
+            "2700"
+          ]
+        }
+      ],
+      "section_path": null,
+      "xlsx_ref": "tables/doc_009_tbl_001.xlsx"
+    },
+    {
+      "block_id": "doc_009_b036",
+      "type": "text",
+      "page": null,
+      "content": "Накладные расходы ………………………...………...(%)\t10",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b037",
+      "type": "text",
+      "page": null,
+      "content": "Рентабельность предприятия……………………….. (%)\t10",
+      "heading_level": null,
+      "section_path": null
+    },
+    {
+      "block_id": "doc_009_b038",
+      "type": "text",
+      "page": null,
+      "content": "08.06.2023",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b039",
+      "type": "text",
+      "page": null,
+      "content": "Генеральный директор __________________\t\t\t\t\t\t___________",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b040",
+      "type": "text",
+      "page": null,
+      "content": "м.п",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b041",
+      "type": "text",
+      "page": null,
+      "content": "(Главный бухгалтер)",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b042",
+      "type": "text",
+      "page": null,
+      "content": "(Краткое/Полное наименование организации контрагента/подрядчика) _________ (ФИО)",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b043",
+      "type": "text",
+      "page": null,
+      "content": "м.п",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b044",
+      "type": "text",
+      "page": null,
+      "content": "Приложение №2",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b045",
+      "type": "text",
+      "page": null,
+      "content": "к требованиям к оформлению сметной документации",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b046",
+      "type": "text",
+      "page": null,
+      "content": "Образец № 3п",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_tbl_003",
+      "type": "table",
+      "page": null,
+      "page_end": null,
+      "caption": null,
+      "col_count": 2,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "СОГЛАСОВАНО: ________________(Подрядчик) ________________ И.О.Ф",
+            "УТВЕРЖДАЮ: _________________(Заказчик) _________________И.О.Ф."
+          ]
+        }
+      ],
+      "section_path": "08.06",
+      "xlsx_ref": "tables/doc_009_tbl_003.xlsx"
+    },
+    {
+      "block_id": "doc_009_tbl_004",
+      "type": "table",
+      "page": null,
+      "page_end": null,
+      "caption": null,
+      "col_count": 7,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            "№ п.п.",
+            "Перечень выполняемых работ",
+            {
+              "value": "Исполнители",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "Количество человеко-дней",
+            "Средняя оплата труда за 1 день",
+            "Оплата труда (всего)"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "№ п.п.",
+            "Перечень выполняемых работ",
+            "количество",
+            "должность",
+            "Количество человеко-дней",
+            "Средняя оплата труда за 1 день",
+            "Оплата труда (всего)"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "1",
+            "Шеф-монтажные работы",
+            "1",
+            "Директор по производству",
+            "7",
+            "2700,00",
+            "18900,00"
+          ]
+        }
+      ],
+      "section_path": "08.06",
+      "xlsx_ref": "tables/doc_009_tbl_004.xlsx"
+    },
+    {
+      "block_id": "doc_009_tbl_004",
+      "type": "table",
+      "page": null,
+      "page_end": null,
+      "caption": null,
+      "col_count": 16,
+      "rows": [
+        {
+          "row_type": "header",
+          "cells": [
+            {
+              "value": "СОГЛАСОВАНО: ________________(Подрядчик) ________________ И.О.Ф",
+              "colspan": 5,
+              "rowspan": 1
+            },
+            {
+              "value": "",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            {
+              "value": "УТВЕРЖДАЮ: _________________(Заказчик) _________________И.О.Ф.",
+              "colspan": 9,
+              "rowspan": 1
+            }
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            {
+              "value": "Расчет командировочных",
+              "colspan": 13,
+              "rowspan": 1
+            },
+            "",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "№ п/п",
+            "Количество, чел",
+            {
+              "value": "Проезд,провоз багажа",
+              "colspan": 6,
+              "rowspan": 1
+            },
+            "Учет времени командировки",
+            {
+              "value": "Суточные, руб.",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "Пункт назначения",
+            "Итого проживание в общежитие",
+            "Всего командировочных расходов",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "№ п/п",
+            "Количество, чел",
+            {
+              "value": "АВИА",
+              "colspan": 3,
+              "rowspan": 1
+            },
+            {
+              "value": "Авто -Ж/д",
+              "colspan": 3,
+              "rowspan": 1
+            },
+            "Учет времени командировки",
+            {
+              "value": "Суточные, руб.",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "Пункт назначения",
+            "Итого проживание в общежитие",
+            "Всего командировочных расходов",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "№ п/п",
+            "Количество, чел",
+            "прямой",
+            {
+              "value": "обратная",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            {
+              "value": "прямой",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "обратный",
+            "",
+            "руб/день",
+            "Всего",
+            "",
+            "Руб.",
+            "руб.",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "1",
+            "1 человек",
+            "20000,00",
+            {
+              "value": "15000,00",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            {
+              "value": "0",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "0",
+            "7",
+            "700",
+            "4900",
+            "г. Южно-Сахалинск, ул. Шлакоблочная, 1",
+            "14000,00",
+            "53900,00",
+            ""
+          ]
+        },
+        {
+          "row_type": "data",
+          "cells": [
+            "",
+            "Всего",
+            "1 человек",
+            "20000,00",
+            {
+              "value": "15000,00",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            {
+              "value": "0",
+              "colspan": 2,
+              "rowspan": 1
+            },
+            "0",
+            "7",
+            "700",
+            "4900",
+            "г. Южно-Сахалинск, ул. Шлакоблочная, 1",
+            "14000,00",
+            "53900,00",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            {
+              "value": "НДС 20%",
+              "colspan": 12,
+              "rowspan": 1
+            },
+            "",
+            "10780,00",
+            ""
+          ]
+        },
+        {
+          "row_type": "section",
+          "cells": [
+            "",
+            {
+              "value": "Итого с НДС",
+              "colspan": 12,
+              "rowspan": 1
+            },
+            "",
+            "64680,00-",
+            ""
+          ]
+        }
+      ],
+      "section_path": "08.06",
+      "xlsx_ref": "tables/doc_009_tbl_004.xlsx"
+    },
+    {
+      "block_id": "doc_009_b047",
+      "type": "text",
+      "page": null,
+      "content": "Приложение №3",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b048",
+      "type": "text",
+      "page": null,
+      "content": "к требованиям к оформлению сметной документации",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_b049",
+      "type": "text",
+      "page": null,
+      "content": "Метод анализа ТКП",
+      "heading_level": null,
+      "section_path": "08.06"
+    },
+    {
+      "block_id": "doc_009_img_001",
+      "type": "image",
+      "page": null,
+      "image_ref": "images/doc_009_img_001.wmf",
+      "width_px": null,
+      "height_px": null,
+      "caption": null,
+      "ocr_text": null,
+      "ocr_status": "pending",
+      "section_path": null
+    }
+  ]
+}
