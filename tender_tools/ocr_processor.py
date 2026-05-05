@@ -44,7 +44,7 @@ class MistralOCRProcessor:
         self.model = model
         self.max_workers = max_workers
 
-        from mistralai.client import Mistral
+        from mistralai import Mistral
         self._client = Mistral(api_key=self.api_key)
 
     def process_document(
@@ -88,7 +88,13 @@ class MistralOCRProcessor:
         _tid = tender_id or parsed.doc_id
 
         if scan_blocks and source_pdf_path and source_pdf_path.exists():
-            processed += self._ocr_pdf_batch(scan_blocks, source_pdf_path, _tid)
+            processed += self._ocr_pdf_batch(
+                scan_blocks=scan_blocks,
+                pdf_path=source_pdf_path,
+                parsed_dir=parsed_dir,
+                doc_id=parsed.doc_id,
+                tender_id=_tid,
+            )
 
         # Отдельные изображения (из DOCX и т.д.) — параллельно
         if image_blocks:
@@ -136,7 +142,14 @@ class MistralOCRProcessor:
         logger.info("OCR завершён: %d/%d обработано", processed, len(pending_blocks))
         return processed
 
-    def _ocr_pdf_batch(self, scan_blocks: list[ImageBlock], pdf_path: Path, doc_id: str = "") -> int:
+    def _ocr_pdf_batch(
+        self,
+        scan_blocks: list[ImageBlock],
+        pdf_path: Path,
+        parsed_dir: Path,
+        doc_id: str,
+        tender_id: str = "",
+    ) -> int:
         """Отправляет весь PDF в Mistral OCR за один запрос.
 
         Результаты распределяются по ImageBlock'ам на основе номеров страниц.
@@ -159,6 +172,9 @@ class MistralOCRProcessor:
             pages_count = len(response.pages)
             cost = calculate_ocr_cost(self.model, pages_count)
 
+            # Сохраняем PNG-рендеры страниц-сканов для UI/source preview.
+            self._save_pdf_scan_images(pdf_path, parsed_dir, doc_id, scan_blocks)
+
             # Маппинг: page_num → block
             page_to_block = {b.page: b for b in scan_blocks}
             processed = 0
@@ -179,7 +195,7 @@ class MistralOCRProcessor:
 
             db.log_api_usage(
                 service="parser", action="ocr", provider="mistral",
-                model=self.model, tender_id=doc_id, doc_id=doc_id,
+                model=self.model, tender_id=tender_id, doc_id=doc_id,
                 ocr_pages_count=pages_count,
                 ocr_doc_size_bytes=len(pdf_path.read_bytes()),
                 cost_usd=cost, duration_ms=duration_ms, status="success",
@@ -191,12 +207,52 @@ class MistralOCRProcessor:
             logger.error("  Ошибка OCR PDF: %s", exc)
             db.log_api_usage(
                 service="parser", action="ocr", provider="mistral",
-                model=self.model, tender_id=doc_id, doc_id=doc_id,
+                model=self.model, tender_id=tender_id, doc_id=doc_id,
                 status="error", error_message=str(exc)[:200],
             )
             for block in scan_blocks:
                 block.ocr_status = "skipped"
             return 0
+
+    def _save_pdf_scan_images(
+        self,
+        pdf_path: Path,
+        parsed_dir: Path,
+        doc_id: str,
+        scan_blocks: list[ImageBlock],
+    ) -> None:
+        """Рендерит страницы-сканы PDF в PNG и заполняет ImageBlock.image_ref.
+
+        В production эти PNG будут загружаться в S3, а image_ref станет S3 key.
+        Сейчас сохраняем локально: parsed/{doc_id}/images/{block_id}.png.
+        """
+        try:
+            import pypdfium2 as pdfium
+
+            images_dir = parsed_dir / doc_id / "images"
+            images_dir.mkdir(parents=True, exist_ok=True)
+
+            pdf = pdfium.PdfDocument(str(pdf_path))
+            for block in scan_blocks:
+                if not block.page:
+                    continue
+                out_name = f"{block.block_id}.png"
+                out_path = images_dir / out_name
+
+                if not out_path.exists():
+                    page = pdf[block.page - 1]
+                    bitmap = page.render(scale=2)
+                    pil_image = bitmap.to_pil()
+                    pil_image.save(str(out_path))
+
+                    block.width_px = pil_image.width
+                    block.height_px = pil_image.height
+
+                block.image_ref = f"images/{out_name}"
+
+            pdf.close()
+        except Exception as exc:
+            logger.warning("Не удалось сохранить PNG страниц PDF %s: %s", pdf_path, exc)
 
     def _ocr_image(self, image_path: Path) -> str:
         """Отправляет изображение в Mistral OCR и возвращает распознанный текст."""

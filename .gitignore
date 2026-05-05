@@ -1,9 +1,55 @@
 /venv
+/.venv
 /env
 .env
-# /data
+
+# Runtime/parser outputs
+/data
+/uploads
+/temp
+/tmp
+
+# Generated previews and local test outputs
+/preview.html
+/preview_*.html
+/source_preview.html
+/agent/examples/result.json
+/agent/examples/source_preview*.html
+
+# Agent prototype / dialogue logic (not part of parser-only repo)
+/agent
+/ask.py
+/tender_tools/answer_generator.py
+/tender_tools/context_assembler.py
+/tender_tools/question_router.py
+/tender_tools/hybrid_search.py
+
+# Legacy experiments / research repos
 /document_parsing_experiments
-# /agent
-# /original_autoresearch_repo
+/original_autoresearch_repo
 /autoresearch
 /plan.md
+
+# Python cache / tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Office temp/lock files
+.~lock*
+~$*
+*.tmp
+
+# Local DB/cache artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE/system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

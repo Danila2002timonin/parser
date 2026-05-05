@@ -3,10 +3,10 @@
   "status": "indexed",
   "source_url": "https://tenderplan.ru/fileviewer/api/documents/archive?tenderId=69cfa03fc5f143e47a75fde7",
   "pipeline_state": {
-    "downloaded": "2026-04-06T22:09:05.446533Z",
-    "extracted": "2026-04-06T22:09:05.517593Z",
-    "parsed": "2026-04-06T22:09:15.006931Z",
-    "passports_generated": "2026-04-06T22:09:40.598774Z",
+    "downloaded": "2026-05-05T11:42:27.280648Z",
+    "extracted": "2026-05-05T11:42:27.347648Z",
+    "parsed": "2026-05-05T11:42:36.036994Z",
+    "passports_generated": "2026-05-05T11:43:30.278352Z",
     "indexed": null
   },
   "documents": [
@@ -18,7 +18,7 @@
       "size_bytes": 38381,
       "source_archive": "source.zip",
       "archive_path": "Обоснование НМЦК.docx",
-      "extracted_at": "2026-04-06T22:09:05.492569Z"
+      "extracted_at": "2026-05-05T11:42:27.327648Z"
     },
     {
       "doc_id": "doc_002",
@@ -28,7 +28,7 @@
       "size_bytes": 31822,
       "source_archive": "source.zip",
       "archive_path": "Описание объекта закупки.docx",
-      "extracted_at": "2026-04-06T22:09:05.492569Z"
+      "extracted_at": "2026-05-05T11:42:27.327648Z"
     },
     {
       "doc_id": "doc_003",
@@ -38,7 +38,7 @@
       "size_bytes": 2496952,
       "source_archive": "source.zip",
       "archive_path": "Презентация Предложения.odp",
-      "extracted_at": "2026-04-06T22:09:05.495578Z"
+      "extracted_at": "2026-05-05T11:42:27.329648Z"
     },
     {
       "doc_id": "doc_004",
@@ -48,7 +48,7 @@
       "size_bytes": 32091,
       "source_archive": "source.zip",
       "archive_path": "Приложение к Извещению.docx",
-      "extracted_at": "2026-04-06T22:09:05.496078Z"
+      "extracted_at": "2026-05-05T11:42:27.329648Z"
     },
     {
       "doc_id": "doc_005",
@@ -58,7 +58,7 @@
       "size_bytes": 81338,
       "source_archive": "source.zip",
       "archive_path": "Проект государственного контракта.docx",
-      "extracted_at": "2026-04-06T22:09:05.496577Z"
+      "extracted_at": "2026-05-05T11:42:27.330648Z"
     },
     {
       "doc_id": "doc_006",
@@ -68,7 +68,7 @@
       "size_bytes": 12600,
       "source_archive": "source.zip",
       "archive_path": "ССЫЛКА на Руководство по фирменному стилю бренда Работа России.docx",
-      "extracted_at": "2026-04-06T22:09:05.496577Z"
+      "extracted_at": "2026-05-05T11:42:27.330648Z"
     },
     {
       "doc_id": "doc_007",
@@ -78,7 +78,7 @@
       "size_bytes": 4509948,
       "source_archive": "source.zip",
       "archive_path": "тех.паспорт.pdf",
-      "extracted_at": "2026-04-06T22:09:05.499084Z"
+      "extracted_at": "2026-05-05T11:42:27.332648Z"
     },
     {
       "doc_id": "doc_008",
@@ -88,7 +88,7 @@
       "size_bytes": 28612,
       "source_archive": "source.zip",
       "archive_path": "Требования к содержанию_ составу заявки на участие в закупке.docx",
-      "extracted_at": "2026-04-06T22:09:05.499584Z"
+      "extracted_at": "2026-05-05T11:42:27.332648Z"
     },
     {
       "doc_id": "doc_009",
@@ -98,7 +98,7 @@
       "size_bytes": 511442,
       "source_archive": "source.zip",
       "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/1 нв ¦.pdf",
-      "extracted_at": "2026-04-06T22:09:05.514090Z"
+      "extracted_at": "2026-05-05T11:42:27.343648Z"
     },
     {
       "doc_id": "doc_010",
@@ -108,7 +108,7 @@
       "size_bytes": 282808,
       "source_archive": "source.zip",
       "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/2 нв ¦.pdf",
-      "extracted_at": "2026-04-06T22:09:05.515090Z"
+      "extracted_at": "2026-05-05T11:42:27.344648Z"
     },
     {
       "doc_id": "doc_011",
@@ -118,9 +118,9 @@
       "size_bytes": 504490,
       "source_archive": "source.zip",
       "archive_path": "План здания ГКУ Краснотурьинский ЦЗ.zip/3 нв ¦.pdf",
-      "extracted_at": "2026-04-06T22:09:05.515589Z"
+      "extracted_at": "2026-05-05T11:42:27.345648Z"
     }
   ],
   "created_at": "2026-04-03T12:56:01.754710Z",
-  "updated_at": "2026-04-06T22:09:40.600782Z"
+  "updated_at": "2026-05-05T11:43:30.280352Z"
 }

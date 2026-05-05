@@ -64,3 +64,4 @@ class SourceBlocksResponse(BaseModel):
     doc_id: str
     source_filename: str = ""
     blocks: list[dict[str, Any]]
+    html: str | None = None
