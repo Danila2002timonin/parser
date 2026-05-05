@@ -15,6 +15,7 @@ from decimal import Decimal
 
 from psycopg_pool import ConnectionPool
 import psycopg
+from psycopg.rows import dict_row
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +52,8 @@ def get_conn():
     """Context manager для получения соединения из pool."""
     if _pool is None:
         init_db()
-    with _pool.connection() as conn:
+    timeout = float(os.getenv("DB_POOL_TIMEOUT", "2"))
+    with _pool.connection(timeout=timeout) as conn:
         yield conn
 
 
@@ -137,6 +139,15 @@ def update_tender_status(tender_id: str, status: str) -> None:
                 """, (status, tender_id))
 
 
+def get_tender(tender_id: str) -> dict | None:
+    """Возвращает запись тендера как dict."""
+    with get_conn() as conn:
+        with conn.cursor(row_factory=dict_row) as cur:
+            cur.execute("SELECT * FROM tenders WHERE tender_id = %s", (tender_id,))
+            row = cur.fetchone()
+            return dict(row) if row else None
+
+
 # ---------------------------------------------------------------------------
 # documents
 # ---------------------------------------------------------------------------
@@ -210,6 +221,23 @@ def update_document_parse_failed(tender_id: str, doc_id: str, status: str = "fai
             """, (status, tender_id, doc_id))
 
 
+def list_documents(tender_id: str) -> list[dict]:
+    """Возвращает документы тендера из PostgreSQL."""
+    with get_conn() as conn:
+        with conn.cursor(row_factory=dict_row) as cur:
+            cur.execute("""
+                SELECT tender_id, doc_id, original_filename, stored_filename,
+                       extension, size_bytes, source_archive, archive_path,
+                       parse_status, ocr_status, text_blocks_count, tables_count,
+                       images_count, total_pages, estimated_tokens, extracted_at,
+                       parsed_at, parse_duration_ms, conversion_duration_ms
+                FROM documents
+                WHERE tender_id = %s
+                ORDER BY doc_id
+            """, (tender_id,))
+            return [dict(row) for row in cur.fetchall()]
+
+
 # ---------------------------------------------------------------------------
 # passports
 # ---------------------------------------------------------------------------
@@ -276,6 +304,35 @@ def upsert_document_map(
             """, (tender_id,
                   json.dumps(map_data, ensure_ascii=False),
                   routing_text, passports_count, estimated_tokens))
+
+
+def list_passports(tender_id: str) -> list[dict]:
+    """Возвращает паспорта тендера из PostgreSQL."""
+    with get_conn() as conn:
+        with conn.cursor(row_factory=dict_row) as cur:
+            cur.execute("""
+                SELECT tender_id, doc_id, doc_type, title, summary, passport_data,
+                       model_used, prompt_tokens, completion_tokens,
+                       generation_cost_usd, generation_duration_ms, generated_at
+                FROM passports
+                WHERE tender_id = %s
+                ORDER BY doc_id
+            """, (tender_id,))
+            return [dict(row) for row in cur.fetchall()]
+
+
+def get_document_map(tender_id: str) -> dict | None:
+    """Возвращает карту документации тендера из PostgreSQL."""
+    with get_conn() as conn:
+        with conn.cursor(row_factory=dict_row) as cur:
+            cur.execute("""
+                SELECT tender_id, map_data, routing_text, passports_count,
+                       estimated_tokens, generated_at
+                FROM document_maps
+                WHERE tender_id = %s
+            """, (tender_id,))
+            row = cur.fetchone()
+            return dict(row) if row else None
 
 
 # ---------------------------------------------------------------------------
@@ -351,3 +408,71 @@ def log_parse_metric(
                       items_count, status, error_message))
     except Exception as exc:
         logger.warning("Не удалось записать parse_metric: %s", exc)
+
+
+# ---------------------------------------------------------------------------
+# pipeline_jobs
+# ---------------------------------------------------------------------------
+
+def create_pipeline_job(tender_id: str, priority: int = 0) -> int:
+    """Создаёт job предобработки и возвращает его ID."""
+    if get_tender(tender_id) is None:
+        upsert_tender(tender_id, status="created")
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                INSERT INTO pipeline_jobs (tender_id, priority, status)
+                VALUES (%s, %s, 'queued')
+                RETURNING id
+            """, (tender_id, priority))
+            return int(cur.fetchone()[0])
+
+
+def mark_job_running(job_id: int, worker_id: str | None = None) -> None:
+    """Помечает job как выполняемый."""
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                UPDATE pipeline_jobs
+                SET status = 'running', worker_id = %s, started_at = now()
+                WHERE id = %s
+            """, (worker_id, job_id))
+
+
+def mark_job_completed(job_id: int) -> None:
+    """Помечает job как завершённый."""
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                UPDATE pipeline_jobs
+                SET status = 'completed', completed_at = now()
+                WHERE id = %s
+            """, (job_id,))
+
+
+def mark_job_failed(job_id: int, error_message: str) -> None:
+    """Помечает job как упавший."""
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                UPDATE pipeline_jobs
+                SET status = 'failed', completed_at = now(), error_message = %s
+                WHERE id = %s
+            """, (error_message[:2000], job_id))
+
+
+def get_latest_job(tender_id: str) -> dict | None:
+    """Возвращает последнюю job по тендеру."""
+    with get_conn() as conn:
+        with conn.cursor(row_factory=dict_row) as cur:
+            cur.execute("""
+                SELECT id, tender_id, priority, status, worker_id, queued_at,
+                       started_at, completed_at, error_message, retry_count,
+                       max_retries
+                FROM pipeline_jobs
+                WHERE tender_id = %s
+                ORDER BY queued_at DESC, id DESC
+                LIMIT 1
+            """, (tender_id,))
+            row = cur.fetchone()
+            return dict(row) if row else None
