@@ -21,6 +21,8 @@ import time
 
 import httpx
 
+from .http_proxy import build_httpx_client
+
 logger = logging.getLogger(__name__)
 
 # Контекст текущего запроса (для трекинга в api_usage)
@@ -94,7 +96,9 @@ class LLMClient:
         self.timeout = timeout
         self.max_retries = max_retries
 
-        self._client = httpx.Client(timeout=self.timeout)
+        self._client = build_httpx_client(
+            target_url=self.base_url, timeout=self.timeout
+        )
 
     @property
     def max_input_tokens(self) -> int:

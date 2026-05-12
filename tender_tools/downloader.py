@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 import httpx
 
 from .config import TENDERPLAN_API_BASE
+from .http_proxy import build_httpx_client
 from .models import PipelineState, TenderManifest, TenderStatus
 from .storage import TenderStorage
 
@@ -61,7 +62,13 @@ class TenderDownloader:
         dest = storage.archive_path
 
         try:
-            with httpx.Client(timeout=self.timeout, follow_redirects=True) as client:
+            # tenderplan.ru намеренно в bypass-списке прокси: запрос идёт
+            # напрямую, мимо корпоративного HTTP-прокси.
+            with build_httpx_client(
+                target_url=url,
+                timeout=self.timeout,
+                follow_redirects=True,
+            ) as client:
                 with client.stream("GET", url, headers=headers) as response:
                     if response.status_code == 401:
                         raise DownloadError("Ошибка авторизации (401). Проверьте API-токен.")

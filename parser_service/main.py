@@ -8,6 +8,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from tender_tools import db
+from tender_tools.http_proxy import apply_to_environment as apply_proxy_to_environment
 
 from .routes import router
 
@@ -19,6 +20,10 @@ logging.basicConfig(
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # Прокидываем OUTBOUND_PROXY_URL в HTTPS_PROXY/HTTP_PROXY/NO_PROXY,
+    # чтобы third-party SDK (Langfuse, OpenTelemetry exporter и т.п.)
+    # автоматически ходили через корпоративный прокси.
+    apply_proxy_to_environment()
     db.init_db()
     try:
         yield

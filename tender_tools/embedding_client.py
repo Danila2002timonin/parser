@@ -13,6 +13,8 @@ import os
 import httpx
 import numpy as np
 
+from .http_proxy import build_httpx_client
+
 logger = logging.getLogger(__name__)
 
 
@@ -37,7 +39,9 @@ class EmbeddingClient:
             "RERANKER_MODEL", "text-embedding-bge-reranker-v2-m3@fp16"
         )
         self.batch_size = batch_size
-        self._client = httpx.Client(timeout=timeout)
+        self._client = build_httpx_client(
+            target_url=self.base_url, timeout=timeout
+        )
 
     def embed(self, texts: list[str]) -> np.ndarray:
         """Получает embeddings для списка текстов.

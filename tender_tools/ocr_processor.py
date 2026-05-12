@@ -17,8 +17,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from . import db
+from .http_proxy import build_httpx_client
 from .llm_client import calculate_ocr_cost
 from .parsers.schema import ImageBlock, ParsedDocument
+
+_MISTRAL_API_URL = "https://api.mistral.ai"
 
 logger = logging.getLogger(__name__)
 
@@ -45,7 +48,13 @@ class MistralOCRProcessor:
         self.max_workers = max_workers
 
         from mistralai import Mistral
-        self._client = Mistral(api_key=self.api_key)
+
+        # Передаём httpx-клиент с прокси-обёрткой, чтобы Mistral SDK ходил
+        # к api.mistral.ai через корпоративный прокси (если он задан).
+        self._http_client = build_httpx_client(
+            target_url=_MISTRAL_API_URL, timeout=300.0
+        )
+        self._client = Mistral(api_key=self.api_key, client=self._http_client)
 
     def process_document(
         self,
