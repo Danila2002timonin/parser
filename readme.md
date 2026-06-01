@@ -2,16 +2,55 @@
 
 FastAPI-сервис для скачивания, распаковки, парсинга и подготовки тендерной документации.
 
+## Структура
+
+```
+app/
+  api/          # HTTP-роуты (health, ingest, tenders)
+  clients/      # внешние клиенты: LLM, OCR-прокси, трейсинг
+  core/         # конфигурация и логирование
+  db/           # SQLAlchemy engine и сессии
+  models/       # ORM-модели
+  repositories/ # доступ к данным
+  schemas/      # Pydantic-схемы (API + манифест)
+  services/     # пайплайн: download -> extract -> parse -> OCR -> passports
+    parsers/    # парсеры форматов (pdf, docx, xlsx, legacy)
+  cli.py        # CLI-обработка тендеров
+  main.py       # FastAPI entrypoint
+alembic/        # миграции БД
+```
+
+## Установка
+
+```bash
+python -m venv venv
+venv\Scripts\activate            # Windows
+pip install -r requirements.txt
+copy .env.example .env           # заполнить ключи и DATABASE_URL
+```
+
+## Миграции БД
+
+```bash
+alembic upgrade head
+```
+
 ## Запуск
 
 ```bash
-uvicorn parser_service.main:app --reload
+uvicorn app.main:app --reload
 ```
 
 Swagger UI:
 
 ```text
 http://127.0.0.1:8000/docs
+```
+
+## CLI
+
+```bash
+python -m app.cli <tender_id> [--force] [-w 10] [-v]
 ```
 
 ## Endpoints
